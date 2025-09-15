@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: #16191e;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.skills{
+    color: aqua;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navbar ul li:hover a{
+    color:aqua ;
+}
+.education ,.logo{
+    color: aqua;
+}
+.edu{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    font-weight: 700;
+    font-size: 50px;
+    gap: 12px;
+}
+.my{
+    color: white;
+}
+.content{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 70px;
+  background-color:  #212429;
+  border: .5px solid #5c616b;
+  border-radius: 50px;
+  gap: 20px;
+  box-shadow: 0 0 10px aqua;
+}
+.name{
+    color: aqua;
+    font-size: 25px;
+    font-weight: 700;
+}
+.info{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}

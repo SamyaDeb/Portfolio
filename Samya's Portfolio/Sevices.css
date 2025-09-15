@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: #16191e;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.skills,.logo{
+    color: aqua;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navbar ul li:hover a{
+    color:aqua ;
+}
+.services{
+    color: aqua;
+}
+.heading{
+   display: flex;
+   justify-content: center;
+   padding-top: 7%;
+   font-weight: 700;
+   font-size: 50px;
+   gap: 12px;
+}
+.my{
+    color: white;
+}
+.services-container{
+    color: white;
+    display: flex;
+    margin: 0px 150px;
+    padding-top: 7%;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: .5px solid #5c616b;
+    padding: 18px 20px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #212429;
+    transition: transform 0.3s ease;
+}
+i{
+    font-size: 38px;
+}
+.services-name{
+    font-size: 30px;
+    font-weight: 700;
+}
+.container:hover p:nth-of-type(1),
+.container:hover p:nth-of-type(2) {
+  color: aqua;
+}
+
+.container:hover p:nth-of-type(3) {
+  color: white;
+}
+.container:hover{
+    border: .5px solid aqua;
+    transform: scale(1.03);
+    box-shadow: 0 0 12px aqua;
+}
+.container p {
+  margin: 0 0 15px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: normal;
+  word-spacing: normal;
+  word-break: break-word;
+}
